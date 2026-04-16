@@ -81,27 +81,27 @@ const SITE = {
   services: [
     {
       title:       'Direito Civil',
-      description: 'Contratos, responsabilidade civil, cobranças, posse e propriedade. Soluções para conflitos em Curitiba e região.',
+      description: 'Contratos, responsabilidade civil, cobranças, posse e propriedade. Soluções eficientes para conflitos patrimoniais e interpessoais.',
     },
     {
       title:       'Direito de Família',
-      description: 'Divórcio, guarda, pensão alimentícia, inventário e herança. Atendimento humanizado para famílias de Curitiba.',
+      description: 'Divórcio, guarda, pensão alimentícia, inventário e herança. Atendimento humanizado com foco na proteção de todos os envolvidos.',
     },
     {
       title:       'Direito Empresarial',
-      description: 'Constituição de empresas, contratos comerciais, fusões e compliance. Assessoria para negócios em Curitiba.',
+      description: 'Constituição de empresas, contratos comerciais, fusões e compliance. Assessoria estratégica para negócios de qualquer porte.',
     },
     {
       title:       'Direito Imobiliário',
-      description: 'Compra, venda e locação de imóveis, usucapião e regularização fundiária. Expertise em Curitiba.',
+      description: 'Compra, venda e locação de imóveis, usucapião e regularização fundiária. Segurança jurídica em cada etapa da transação.',
     },
     {
       title:       'Consultoria Estratégica',
-      description: 'Assessoria preventiva, análise de contratos e pareceres com visão de negócios para empresas curitibanas.',
+      description: 'Assessoria preventiva, análise de contratos e pareceres com visão de negócios. Redução de riscos e tomada de decisão fundamentada.',
     },
     {
       title:       'Planejamento Patrimonial',
-      description: 'Proteção do patrimônio familiar e empresarial, holdings e blindagem para Curitiba e região metropolitana.',
+      description: 'Proteção do patrimônio familiar e empresarial, estruturação de holdings e blindagem contra riscos jurídicos e fiscais.',
     },
   ],
 

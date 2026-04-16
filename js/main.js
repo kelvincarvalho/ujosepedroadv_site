@@ -21,7 +21,7 @@
     var widget = document.getElementById('cal-widget');
     if (widget) {
       widget.setAttribute('data-url', url + params);
-      widget.style.height = '660px';
+      widget.style.height = '700px';
     }
 
     var fbLink = document.getElementById('cal-fb-link');

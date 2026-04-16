@@ -15,13 +15,11 @@
   <meta name="referrer" content="strict-origin-when-cross-origin">
 
   <!-- Open Graph / WhatsApp preview
-       ATENÇÃO: após publicar, substitua BASE_URL pelo domínio real em todas as linhas abaixo.
-       Ex: https://josequeiroz.adv.br  ou  https://usuario.github.io/josequeiroz-site -->
   <meta property="og:title"       content="José Queiroz | Advocacia &amp; Consultoria Jurídica">
   <meta property="og:description" content="Advocacia técnica de alta performance em Curitiba e região. OAB/PR 116.683.">
   <meta property="og:type"        content="website">
-  <meta property="og:url"         content="BASE_URL">
-  <meta property="og:image"        content="BASE_URL/assets/og-image.jpg">
+  <meta property="og:url"         content="https://josequeirozadv.com.br">
+  <meta property="og:image"        content="https://josequeirozadv.com.br/assets/og-image.jpg">
   <meta property="og:image:width"  content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt"    content="Dr. José Queiroz — Advocacia &amp; Consultoria Jurídica, Curitiba">
@@ -34,10 +32,10 @@
     "@type": ["LegalService", "LocalBusiness"],
     "name": "José Queiroz Advocacia & Consultoria Jurídica",
     "description": "Advocacia técnica de alta performance em Direito Empresarial, Família e Civil. Atendimento presencial em Curitiba e digital em todo o Brasil.",
-    "url": "https://josequeiroz.adv.br",
+    "url": "https://josequeirozadv.com.br",
     "telephone": "+55-41-98885-5715",
     "email": "ujose.adv@gmail.com",
-    "image": "https://josequeiroz.adv.br/assets/og-image.jpg",
+    "image": "https://josequeirozadv.com.br/assets/og-image.jpg",
     "priceRange": "$$",
     "address": {
       "@type": "PostalAddress",
@@ -288,7 +286,7 @@
 
   <!-- ─── MARQUEE — itens injetados pelo render.js ─── -->
   <div class="marquee" aria-hidden="true">
-    <div id="marquee-track"></div>
+    <div id="marquee-track" class="mq-track"></div>
   </div>
 
   <!-- ─── SERVIÇOS — grid injetado pelo render.js ─── -->
@@ -388,6 +386,14 @@
           100% digital via Google Meet ou Zoom.
         </p>
 
+        <div class="prep-steps">
+          <p class="prep-label">Para aproveitar ao máximo a consulta, tenha em mente:</p>
+          <div class="cstep"><span class="cstep-n">1.</span><span>Qual é a situação — descreva brevemente o que está acontecendo ou o problema que enfrenta.</span></div>
+          <div class="cstep"><span class="cstep-n">2.</span><span>Se há documentos envolvidos — contrato, notificação, e-mail ou qualquer outro registro relevante.</span></div>
+          <div class="cstep"><span class="cstep-n">3.</span><span>Se existe prazo ou urgência — datas importantes, intimações ou situações que exigem agilidade.</span></div>
+          <div class="cstep"><span class="cstep-n">4.</span><span>O que espera da conversa — orientação jurídica, análise de risco ou representação.</span></div>
+        </div>
+
         <div class="aviso" role="note">
           <div class="aviso-t">Informação sobre honorários advocatícios</div>
           <p class="aviso-p">
@@ -408,17 +414,6 @@
               </svg>
             </div>
             <div><span class="at-name">Consulta Online — 30 min</span>Via Google Meet · Curitiba e Brasil</div>
-          </div>
-          <div class="at">
-            <div class="at-icon" aria-hidden="true">
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.5">
-                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
-                <polyline points="14 2 14 8 20 8"/>
-                <line x1="16" y1="13" x2="8" y2="13"/>
-                <line x1="16" y1="17" x2="8" y2="17"/>
-              </svg>
-            </div>
-            <div><span class="at-name">Revisão de Contrato</span>Análise detalhada de documento jurídico</div>
           </div>
         </div>
 
@@ -446,7 +441,8 @@
           </div>
           <!-- URL do Calendly injetada via main.js (SITE.owner.calendly) -->
           <div class="cal-widget calendly-inline-widget" id="cal-widget"
-               style="min-width:280px;height:660px">
+               data-auto-resize="true"
+               style="min-width:280px;height:700px">
           </div>
           <div class="cal-fallback" id="cal-fallback" role="note">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.2" aria-hidden="true">
